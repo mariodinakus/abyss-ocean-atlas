@@ -1,0 +1,14 @@
+{
+  "name": "abyss-ocean-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "3D ocean exploration atlas with GEBCO 2026 bathymetry and an interactive dive simulator",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test.mjs"
+  },
+  "engines": {"node": ">=20"}
+}
